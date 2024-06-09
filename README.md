@@ -26,4 +26,4 @@ Un cop hagi acabat la instal·lació de la llibreria, ja es podrà començar a u
 1. (Opcional) Descarregar el fitxer situat al directori del repositori /TrainedModel, on es trobarà un fitxer .joblib, que conté el model ja entrenat. En cas de voler entrenar un altre model, no cal descarregar aquest fitxer.
 2. Descarregar la carpeta /archive/german_credit_data.csv i introduir aquesta carpeta en el mateix directori que es trobi el notebook. **Si el fitxer german_credit_data.csv es posa en una ubicació que no sigui en una carpeta _archive_, i aquesta carpeta no es troba en la mateixa ubicació que el fitxer notebook, el fitxer notebook no podrà trobar les dades i retornarà error** 
 
-Un cop seguits aquests pasos, ja pots començar a executar les cel·les del notebook sense cap tipus de problema.
+Un cop seguits aquests pasos, ja es pot començar a executar les cel·les del notebook sense cap tipus de problema.
