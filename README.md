@@ -12,7 +12,16 @@ Les eines utilitzades per a la preparació d'aquest projecte ha estat:
 - SKlearn: llibreria utilitzada per a instanciar el model darrere el classificador binari.
 
 ### Instruccions per a la seva preparació
-Per a poder executar el fitxer notebook, primer cal fer certes preparacions a l'entorn de desenvolupament on executarem el notebook. Per això, a la carpeta /BackUps/ podem trobar un fitxer **backUpNNContrastive.yaml** que al descarregar-lo, podem importar l'entorn complert per a executar el notebook. Per fer això utilitzant Anaconda Navigator, ens dirigirem a la finestra principal d'anaconda, cercarem al menú situat a l'esquerra l'opció **environments** i en el menú on es llistaràn tots els entorns creats, a la part inferior trobarem un menú amb 5 butons. Si polsem el botó import, ens apareixerà una finestra pop up on seleccionarem la opció **local drive** i polsarem a la carpeta al costat de la textbox. Se'ns obrirà l'explorador d'arxius i haurem de cercar l'ubicació on s'ha instal·lat l'entorn. Un cop seleccionem el fitxer .yaml descarregat anteriorment, polsarem el botó **Import** de la finestra i l'entorn es començara a clonar.
+Per a poder executar el fitxer notebook, primer cal fer certes preparacions a l'entorn de desenvolupament on executarem el notebook. Per això, a la carpeta /BackUps/ podem trobar un fitxer **backUpNNContrastive.yaml** que al descarregar-lo, podem importar l'entorn complert per a executar el notebook. 
+
+Per fer això utilitzant Anaconda Navigator:
+
+1. Ens dirigirem a la finestra principal d'anaconda icercarem al menú situat a l'esquerra l'opció **environments**
+<img src="https://raw.githubusercontent.com/Gerard01mm/TFGAvaluacioDeContrafactuals/tutorialImportar/importar1.png">
+
+
+   
+3. menú on es llistaràn tots els entorns creats, a la part inferior trobarem un menú amb 5 butons. Si polsem el botó import, ens apareixerà una finestra pop up on seleccionarem la opció **local drive** i polsarem a la carpeta al costat de la textbox. Se'ns obrirà l'explorador d'arxius i haurem de cercar l'ubicació on s'ha instal·lat l'entorn. Un cop seleccionem el fitxer .yaml descarregat anteriorment, polsarem el botó **Import** de la finestra i l'entorn es començara a clonar.
 
 Però, en cas que es produeixi un error, o en cas de voler-lo fer de 0, es poden seguir els passos següents:
 
