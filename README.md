@@ -28,6 +28,12 @@ Per fer això utilitzant Anaconda Navigator:
 4. Un cop seleccionem el fitxer .yaml descarregat anteriorment, polsarem el botó **Import** de la finestra i l'entorn es començara a clonar.
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar4.png">
 
+5. Un cop importat l'entorn, haurem de realitzar la instal·lació de AIX360. Per això, tornarem al llistat d'entorns i polsarem el botó **play** de l'entorn importat i posteriorment polsarem **Open terminal**
+6. A la terminal que se'ns aparegui, ens desplacarem fins a la ubicació on tinguem el notebook **BinaryClassificator.ipynb**. Un cop estem en aquest directori, executarem la comanda _git clone https://github.com/Trusted-AI/AIX360_.
+7. Un cop s'hagi clonat el repositori, a la ubicació actual s'haurà creat una carpeta **AIX360**. Des de la terminal accedim a aquesta carpeta i, donat que en el notebook s'utilitza el mètode **NNContrastive**, haurem d'executar la comanda _pip install -e .[nncontrastive]_.
+
+Un cop hagi finalitzat la resolució de dependències, el notebook ja es podrà executar.
+
 ## Instruccions per a executar el notebook creant de 0 l'entorn
 Però, en cas que es produeixi un error, o en cas de voler-lo fer de 0, es poden seguir els passos següents:
 
@@ -46,7 +52,7 @@ Però, en cas que es produeixi un error, o en cas de voler-lo fer de 0, es poden
 5. Un cop a la terminal, primer instal·larem tot l'entorn de jupyter per poder utilitzar Jupyter Notebook. Introduirem a la terminal la comanda _pip install jupyter_
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/TutorialCrearEntorn/Crear5.png">
 
-6. Un cop finalitzat el procés anterior, en un directori que nosaltres volguem, clonarem el repositori de la llibreria AIX360. En el cas de l'imatge, aquest directori serà el directori **R:**, però pot ser qualsevol directori. La comanda que s'utilitzarà serà _git clone https://github.com/Trusted-AI/AIX360_
+6. Un cop finalitzat el procés anterior, clonarem el repositori de la llibreria AIX360. La clonació d'aquest repositori haura de realitzar-se a la mateixa ubicació que el fitxer **BinaryClassifier.ipynb**, ja que en qualsevol altre cas, el notebook no detectarà la llibreria AIX360. La comanda que s'utilitzarà serà _git clone https://github.com/Trusted-AI/AIX360_
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/TutorialCrearEntorn/Crear6.png">
 
 7. En el directori on haguem clonat el repositori, ens apareixerà una carpeta anomenada **AIX360**, amb la comanda _cd_ accedirem a aquesta carpeta i, com en aquest projecte s'ha utilitzat el mètode **NNContrastiveExplainer**, la comanda que haurem d'executar dins de la carpeta **AIX360** serà _pip install -e .[nncontrastive]_. Amb aquesta comanda, totes les dependencies s'instal·laran automàticament.
