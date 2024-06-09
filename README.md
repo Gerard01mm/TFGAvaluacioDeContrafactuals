@@ -11,7 +11,7 @@ Les eines utilitzades per a la preparació d'aquest projecte ha estat:
 - AIX360: llibreria utilitzada en aquesta preparació per poder crear les explicacions contrafactuals.
 - SKlearn: llibreria utilitzada per a instanciar el model darrere el classificador binari.
 
-### Instruccions per a la seva preparació
+### Instruccions per a executar el notebook
 Per a poder executar el fitxer notebook, primer cal fer certes preparacions a l'entorn de desenvolupament on executarem el notebook. Per això, a la carpeta /BackUps/ podem trobar un fitxer **backUpNNContrastive.yaml** que al descarregar-lo, podem importar l'entorn complert per a executar el notebook. 
 
 Per fer això utilitzant Anaconda Navigator:
