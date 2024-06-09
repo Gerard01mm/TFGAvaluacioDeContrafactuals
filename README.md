@@ -31,8 +31,11 @@ Per fer això utilitzant Anaconda Navigator:
 Però, en cas que es produeixi un error, o en cas de voler-lo fer de 0, es poden seguir els passos següents:
 
 1. Primer, s'ha de crear un entorn de desenvolupament amb Anaconda NAvigator. Aquest entorn ha de contenir: Python 3.10, l'entorn complert de jupyter per poder utilitzar Jupyter Notebook
-2. Per a poder utilitzar AIX360 en aquest entorn, en un directori a part, s'haura de clonar el repositori de AIX360 amb la següent comanda: git clone https://github.com/Trusted-AI/AIX360
-3. Posteriorment, en una consola amb l'entorn creat al punt 1 activat, s'haurà d'executar la següent comanda: pip install -e .[nncontrastive].
+<img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar1.png">
+<img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/TutorialCrearEntorn/crear2.png">
+
+3. Per a poder utilitzar AIX360 en aquest entorn, en un directori a part, s'haura de clonar el repositori de AIX360 amb la següent comanda: git clone https://github.com/Trusted-AI/AIX360
+4. Posteriorment, en una consola amb l'entorn creat al punt 1 activat, s'haurà d'executar la següent comanda: pip install -e .[nncontrastive].
 
 
 Un cop hagi acabat la instal·lació de la llibreria, ja es podrà començar a utilitzar la llibreria. Ara, per poder executar les cel·les sense problemes, hem de seguir els següents pasos:
