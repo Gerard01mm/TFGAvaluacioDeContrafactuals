@@ -1,6 +1,6 @@
 # Treball Final de Grau: Avaluació amb usuaris d’explicacions contrafactuals comparant el format tabular i el format textual
 
-### Introducció
+## Introducció
 Aquest repositori compta amb tot el programari que s'ha utilitzat per a preparar el classificador binari. Aquest classificador binari s'encarrega, en primer lloc, de classificar una sol·licitud de crèdit en denegat o concedit segons les característiques de la sol·licitud introduida. Però, a més, per a aquelles sol·licituds de crèdit que s'han classificat com a denegades, el sistema genera un seguit de contrafactuals per a poder indicar possibles canvis a fer per a la sol·licitud de crèdit per a que aquesta canviï la seva classificació a concedit.
 
 ## Eines utiltizades en la preparació
