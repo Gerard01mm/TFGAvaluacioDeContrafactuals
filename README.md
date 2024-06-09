@@ -3,7 +3,7 @@
 ### Introducció
 Aquest repositori compta amb tot el programari que s'ha utilitzat per a preparar el classificador binari. Aquest classificador binari s'encarrega, en primer lloc, de classificar una sol·licitud de crèdit en denegat o concedit segons les característiques de la sol·licitud introduida. Però, a més, per a aquelles sol·licituds de crèdit que s'han classificat com a denegades, el sistema genera un seguit de contrafactuals per a poder indicar possibles canvis a fer per a la sol·licitud de crèdit per a que aquesta canviï la seva classificació a concedit.
 
-### Eines utiltizades en la preparació
+## Eines utiltizades en la preparació
 Les eines utilitzades per a la preparació d'aquest projecte ha estat:
 
 - Anaconda Navigator: utilitzat per a preparar l'entorn i així evitar incompatibilitats amb altres llibreries de Python.
@@ -11,7 +11,7 @@ Les eines utilitzades per a la preparació d'aquest projecte ha estat:
 - AIX360: llibreria utilitzada en aquesta preparació per poder crear les explicacions contrafactuals.
 - SKlearn: llibreria utilitzada per a instanciar el model darrere el classificador binari.
 
-### Instruccions per a executar el notebook
+## Instruccions per a executar el notebook
 Per a poder executar el fitxer notebook, primer cal fer certes preparacions a l'entorn de desenvolupament on executarem el notebook. Per això, a la carpeta /BackUps/ podem trobar un fitxer **backUpNNContrastive.yaml** que al descarregar-lo, podem importar l'entorn complert per a executar el notebook. 
 
 Per fer això utilitzant Anaconda Navigator:
