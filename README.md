@@ -19,10 +19,10 @@ Per fer això utilitzant Anaconda Navigator:
 1. Ens dirigirem a la finestra principal d'anaconda icercarem al menú situat a l'esquerra l'opció **environments**
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar1.png">
 
-2. En el menú on es llistaràn tots els entorns creats, a la part inferior trobarem un menú amb 5 butons. Si polsem el botó import, ens apareixerà una finestra pop up.
+2. En el menú on es llistaràn tots els entorns creats, a la part inferior trobarem un menú amb 5 butons. Si polsem el botó **import**, ens apareixerà una finestra pop up.
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar2.png">
 
-3. Seleccionarem la opció **local drive** i polsarem a la carpeta al costat de la textbox. Se'ns obrirà l'explorador d'arxius i haurem de cercar l'ubicació on s'ha instal·lat l'entorn.
+3. Seleccionarem la opció **local drive** i polsarem a la carpeta al costat de la textbox. Se'ns obrirà l'explorador d'arxius i haurem de cercar l'ubicació on s'ha descarregat el fitxer .yaml.
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar3.png">
 
 4. Un cop seleccionem el fitxer .yaml descarregat anteriorment, polsarem el botó **Import** de la finestra i l'entorn es començara a clonar.
@@ -30,22 +30,22 @@ Per fer això utilitzant Anaconda Navigator:
 
 Però, en cas que es produeixi un error, o en cas de voler-lo fer de 0, es poden seguir els passos següents:
 
-1. Primer, s'ha de crear un entorn de desenvolupament amb Anaconda NAvigator. Primer, ens adreçarem de nou a la pestanya de **Environments** des de el menú inicial d'Anaconda.
+1. Primer, s'ha de crear un entorn de desenvolupament amb Anaconda Navigator. Primer, ens adreçarem de nou a la pestanya de **Environments** des de el menú inicial d'Anaconda.
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar1.png">
 
 2. En el menú inferior, polsarem el botó **Create**.
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/TutorialCrearEntorn/Crear2.png">
 
-3. En el moment de pulsar el boto, s'obrirà una finestra pop up, on introduirem un nom per a l'entorn i posteriorment seleccionarem la CheckBox de Python i, per utilitzar l'explicador nncontrastive, la versió de Python haura de ser una versió 3.10.X.
+3. En el moment de pulsar el boto, s'obrirà una finestra pop up, on introduirem un nom per a l'entorn i posteriorment seleccionarem la CheckBox de Python i, per utilitzar l'explicador nncontrastive, la versió de Python haura de ser una versió **3.10.X**.
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/TutorialCrearEntorn/Crear3.png">
 
-4. El següent pas serà instal·lar les llibreries necessaries. Per això, accedirem a la terminal del nou entorns (el qual apareixerà a la llista d'entorns) polsant el botó play de l'entorn i posteriorment a **Open terminal**.
+4. El següent pas serà instal·lar les llibreries necessaries. Per això, accedirem a la terminal del nou entorns (el qual apareixerà a la llista d'entorns) polsant el botó **play** de l'entorn i posteriorment a **Open terminal**.
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/TutorialCrearEntorn/Crear4.png">
 
 5. Un cop a la terminal, primer instal·larem tot l'entorn de jupyter per poder utilitzar Jupyter Notebook. Introduirem a la terminal la comanda _pip install jupyter_
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/TutorialCrearEntorn/Crear5.png">
 
-6. Un cop finalitzat el procés anterior, en un directori que nosaltres volguem, clonarem el repositori de la llibreria AIX360. En el cas de l'imatge, aquest directori serà el directori R:, però pot ser qualsevol directori. La comanda que s'utilitzarà serà _git clone https://github.com/Trusted-AI/AIX360_
+6. Un cop finalitzat el procés anterior, en un directori que nosaltres volguem, clonarem el repositori de la llibreria AIX360. En el cas de l'imatge, aquest directori serà el directori **R:**, però pot ser qualsevol directori. La comanda que s'utilitzarà serà _git clone https://github.com/Trusted-AI/AIX360_
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/TutorialCrearEntorn/Crear6.png">
 
 7. En el directori on haguem clonat el repositori, ens apareixerà una carpeta anomenada **AIX360**, amb la comanda _cd_ accedirem a aquesta carpeta i, com en aquest projecte s'ha utilitzat el mètode **NNContrastiveExplainer**, la comanda que haurem d'executar dins de la carpeta **AIX360** serà _pip install -e .[nncontrastive]_.
