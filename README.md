@@ -11,7 +11,7 @@ Les eines utilitzades per a la preparació d'aquest projecte ha estat:
 - AIX360: llibreria utilitzada en aquesta preparació per poder crear les explicacions contrafactuals.
 - SKlearn: llibreria utilitzada per a instanciar el model darrere el classificador binari.
 
-## Instruccions per a executar el notebook
+## Instruccions per a executar el notebook important l'entorn
 Per a poder executar el fitxer notebook, primer cal fer certes preparacions a l'entorn de desenvolupament on executarem el notebook. Per això, a la carpeta /BackUps/ podem trobar un fitxer **backUpNNContrastive.yaml** que al descarregar-lo, podem importar l'entorn complert per a executar el notebook. 
 
 Per fer això utilitzant Anaconda Navigator:
@@ -28,6 +28,7 @@ Per fer això utilitzant Anaconda Navigator:
 4. Un cop seleccionem el fitxer .yaml descarregat anteriorment, polsarem el botó **Import** de la finestra i l'entorn es començara a clonar.
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar4.png">
 
+## Instruccions per a executar el notebook creant de 0 l'entorn
 Però, en cas que es produeixi un error, o en cas de voler-lo fer de 0, es poden seguir els passos següents:
 
 1. Primer, s'ha de crear un entorn de desenvolupament amb Anaconda Navigator. Primer, ens adreçarem de nou a la pestanya de **Environments** des de el menú inicial d'Anaconda.
