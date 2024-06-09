@@ -17,7 +17,7 @@ Per a poder executar el fitxer notebook, primer cal fer certes preparacions a l'
 Per fer això utilitzant Anaconda Navigator:
 
 1. Ens dirigirem a la finestra principal d'anaconda icercarem al menú situat a l'esquerra l'opció **environments**
-<img src="https://raw.githubusercontent.com/Gerard01mm/TFGAvaluacioDeContrafactuals/tutorialImportar/importar1.png">
+<img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/tutorialImportar/importar1.png">
 
 
    
