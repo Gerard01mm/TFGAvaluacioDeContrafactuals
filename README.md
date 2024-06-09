@@ -28,9 +28,14 @@ Per fer això utilitzant Anaconda Navigator:
 4. Un cop seleccionem el fitxer .yaml descarregat anteriorment, polsarem el botó **Import** de la finestra i l'entorn es començara a clonar.
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar4.png">
 
-5. Un cop importat l'entorn, haurem de realitzar la instal·lació de AIX360. Per això, tornarem al llistat d'entorns i polsarem el botó **play** de l'entorn importat i posteriorment polsarem **Open terminal**
+5. Un cop importat l'entorn, haurem de realitzar la instal·lació de AIX360. Per això, tornarem al llistat d'entorns i polsarem el botó **play** de l'entorn importat i posteriorment polsarem **Open terminal**+
+<img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar5.png">
+
 6. A la terminal que se'ns aparegui, ens desplacarem fins a la ubicació on tinguem el notebook **BinaryClassificator.ipynb**. Un cop estem en aquest directori, executarem la comanda _git clone https://github.com/Trusted-AI/AIX360_.
+<img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar6.png">
+
 7. Un cop s'hagi clonat el repositori, a la ubicació actual s'haurà creat una carpeta **AIX360**. Des de la terminal accedim a aquesta carpeta i, donat que en el notebook s'utilitza el mètode **NNContrastive**, haurem d'executar la comanda _pip install -e .[nncontrastive]_.
+<img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar7.png">
 
 Un cop hagi finalitzat la resolució de dependències, el notebook ja es podrà executar.
 
