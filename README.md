@@ -19,9 +19,14 @@ Per fer això utilitzant Anaconda Navigator:
 1. Ens dirigirem a la finestra principal d'anaconda icercarem al menú situat a l'esquerra l'opció **environments**
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar1.png">
 
+2. En el menú on es llistaràn tots els entorns creats, a la part inferior trobarem un menú amb 5 butons. Si polsem el botó import, ens apareixerà una finestra pop up.
+<img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar2.png">
 
-   
-3. menú on es llistaràn tots els entorns creats, a la part inferior trobarem un menú amb 5 butons. Si polsem el botó import, ens apareixerà una finestra pop up on seleccionarem la opció **local drive** i polsarem a la carpeta al costat de la textbox. Se'ns obrirà l'explorador d'arxius i haurem de cercar l'ubicació on s'ha instal·lat l'entorn. Un cop seleccionem el fitxer .yaml descarregat anteriorment, polsarem el botó **Import** de la finestra i l'entorn es començara a clonar.
+3. Seleccionarem la opció **local drive** i polsarem a la carpeta al costat de la textbox. Se'ns obrirà l'explorador d'arxius i haurem de cercar l'ubicació on s'ha instal·lat l'entorn.
+<img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar3.png">
+
+4. Un cop seleccionem el fitxer .yaml descarregat anteriorment, polsarem el botó **Import** de la finestra i l'entorn es començara a clonar.
+<img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/tutorialImportar/importar4.png">
 
 Però, en cas que es produeixi un error, o en cas de voler-lo fer de 0, es poden seguir els passos següents:
 
