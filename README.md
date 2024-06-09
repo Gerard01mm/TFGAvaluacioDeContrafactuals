@@ -51,6 +51,9 @@ Però, en cas que es produeixi un error, o en cas de voler-lo fer de 0, es poden
 7. En el directori on haguem clonat el repositori, ens apareixerà una carpeta anomenada **AIX360**, amb la comanda _cd_ accedirem a aquesta carpeta i, com en aquest projecte s'ha utilitzat el mètode **NNContrastiveExplainer**, la comanda que haurem d'executar dins de la carpeta **AIX360** serà _pip install -e .[nncontrastive]_.
 <img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/TutorialCrearEntorn/Crear7.png">
 
+8. L'ultim paquet que s'instal·larà serà joblib, una llibreria que ens permet emmagatzemar un model ja entrenat en un fitxer per evitar entrenar en cada execució. Per instal·lar aquesta llibreria, caldrà executar la comanda _pip install joblib_
+<img src="https://github.com/Gerard01mm/TFGAvaluacioDeContrafactuals/blob/main/TutorialCrearEntorn/Crear8.png">
+
 Un cop hagi acabat la instal·lació de la llibreria, el notebook ja serà capaç d'importar les llibreries sense donar cap error. Ara, per poder executar les cel·les sense problemes, hem de seguir els següents pasos:
 
 1. (Opcional) Descarregar el fitxer situat al directori del repositori /TrainedModel, on es trobarà un fitxer .joblib, que conté el model ja entrenat. En cas de voler entrenar un altre model, no cal descarregar aquest fitxer.
